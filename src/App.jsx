@@ -11,15 +11,16 @@ function App() {
 
   return(
   <div className = "background">
-    <Header/>
+      <Header/>
     <hr/>
-    <Pokeball/>
-    
-    <Squirtle/>
-    <Charmander/>
-    <Bulbasaur/>
-    <Typhlosion/>
-    <Pikachu/>
+      <Pokeball/>
+    <div className = "cardContainer">
+      <Squirtle/>
+      <Charmander/>
+      <Bulbasaur/>
+      <Typhlosion/>
+      <Pikachu/>
+    </div>
     <h2 className="botText1">HOVER OVER THE IMAGES TO SEE THE POKEMON DANCE!</h2>
     <h2 className="botText2">CLICK ON THE POKEMON'S DESCRIPTION TO HEAR THE POKEDEX!</h2>
   </div>
